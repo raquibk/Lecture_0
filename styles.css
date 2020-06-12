@@ -9,12 +9,12 @@
     background-color:#2677e0;
     overflow-x: hidden;
     padding-top: 20px;
-    color:#313632 ;
+    color:black ;
 }
 
 #section_1 a {
     padding: 10px;
-    color: #4fb069;
+    color:black;
     display: block;
     size: 11px;
     text-decoration: none;
@@ -30,8 +30,17 @@
     transform: scale(1.1);
 }
 
-#section_2 {
+.homepage {
+    color: black;
     margin-left: 160px;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 34px;
 }
 p {
     margin-left: 160px;
