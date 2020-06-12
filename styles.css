@@ -6,16 +6,23 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color:#2677e0;
     overflow-x: hidden;
     padding-top: 20px;
+    color:#313632 ;
 }
 
-#section_1 a, p {
+#section_1 a {
     padding: 10px;
-    color: grey;
+    color: #4fb069;
     display: block;
     size: 11px;
+    text-decoration: none;
+}
+
+#section_1 a:visited {
+    color: grey;
+    text-decoration: none;
 }
 
 #section_1 a:hover {
@@ -25,12 +32,12 @@
 
 #section_2 {
     margin-left: 160px;
-    object-fit: fill;
 }
-#section_3 {
+p {
     margin-left: 160px;
     clear: right;
     text-align: justify;
     font-size: medium;
-    width: 100%;
+    width: 92%;
+    color: grey;
 }
