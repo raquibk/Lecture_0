@@ -1,0 +1,52 @@
+
+#section_1 {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#2677e0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color:black ;
+}
+
+#section_1 a {
+    padding: 10px;
+    color:black;
+    display: block;
+    size: 11px;
+    text-decoration: none;
+}
+
+#section_1 a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+#section_1 a:hover {
+    color:whitesmoke;
+    transform: scale(1.1);
+}
+
+.homepage {
+    color: black;
+    margin-left: 160px;
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 34px;
+}
+p {
+    margin-left: 160px;
+    clear: right;
+    text-align: justify;
+    font-size: medium;
+    width: 92%;
+    color: grey;
+}
