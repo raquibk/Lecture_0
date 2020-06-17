@@ -1,3 +1,4 @@
+/* Code for navigation bar as a list */
 .navigation ul {
     height: 50px;
     width: 100%;
@@ -12,10 +13,12 @@
 
 }
 
+/* float list to the left */
 .navigation li {
     float: left;
 }
 
+/* modification for the links in the navigation bar */
 .navigation li a {
     padding: 19px;
     color: black;
@@ -26,11 +29,13 @@
     width: 100%;
 }
 
+/* styling links when they are hovered upon*/
 .navigation a:hover {
     color: whitesmoke;
     transform: scale(1.1);
 }
 
+/* Stacking orchid image, giving it relative position and centering  it */
 .homeimage {
     text-align: center;
     position: relative;
