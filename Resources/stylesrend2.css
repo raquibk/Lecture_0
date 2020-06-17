@@ -1,0 +1,58 @@
+.navigation ul {
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #a1a1a1;
+    margin-top: 0px;
+    margin-right: 75px;
+    margin-left: 0px;
+    padding: 0;
+    position: fixed;
+
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    padding: 19px;
+    color: black;
+    display: block;
+    size: 12px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.navigation a:hover {
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+.homeimage {
+    text-align: center;
+    position: relative;
+    color: white;
+    z-index: -1;
+}
+
+.introduction {
+    position: absolute;
+    color: black;
+    top: 58px;
+    left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+}
+
+.opening {
+    position: absolute;
+    color: black;
+    top: 960px;
+    left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
